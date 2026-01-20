@@ -1,6 +1,7 @@
 ## AI for Sustainable Energy and Environmental Forecasting
 
 Hybrid Prophet–LSTM Framework for Hourly Energy Consumption Prediction
+
 Design Project – Indian Institute of Information Technology, Vadodara (IIITV)
 
 ## Project Overview
@@ -21,9 +22,9 @@ Reliability under uncertainty
 
 Developed as a sustainable energy and environmental intelligence system
 
-## Hybrid Architectures Implemented
+# Hybrid Architectures Implemented
 
-# Residual Hybrid (Prophet → LSTM on Residuals)
+## Residual Hybrid (Prophet → LSTM on Residuals)
 
 
 Modeled baseline trend and seasonality using Prophet
@@ -36,7 +37,7 @@ Combined Prophet output with LSTM correction signal
 
 Improved nonlinear pattern capture beyond symbolic modeling
 
-# Feature-Augmented Hybrid (Prophet Components → LSTM Inputs)
+## Feature-Augmented Hybrid (Prophet Components → LSTM Inputs)
 
 Decomposed time series using Prophet into:
 
@@ -51,7 +52,7 @@ Injected Prophet components directly into LSTM feature space
 Enabled deep learning model to learn interactions between symbolic and temporal features
 
 
-# Weighted Ensemble Hybrid
+## Weighted Ensemble Hybrid
 
 Trained Prophet and LSTM as independent predictors
 
@@ -61,7 +62,7 @@ Computed weighted combination based on validation performance
 
 Improved robustness across regional datasets
 
-# Stacking Hybrid Model
+## Stacking Hybrid Model
 
 Used Prophet and LSTM as base-level models
 
@@ -71,7 +72,7 @@ Learned optimal nonlinear mapping for final forecast output
 
 Improved generalization across seasonal and demand shifts
 
-# Error-Correction Chain (LSTM → Prophet)
+## Error-Correction Chain (LSTM → Prophet)
 
 Generated primary forecast using LSTM
 
@@ -139,4 +140,4 @@ Demonstrated improved stability and generalization for environmental and energy 
 
 
 
-IIIT Vadodara ICD – Design Project Team
+### IIIT Vadodara ICD – Design Project Team
